@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     list-style: none;
     box-sizing: border-box;
@@ -10,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: #F1FDFF;
 }
 header {
     display: flex;
@@ -82,8 +85,8 @@ a {
     font-size: 29px;
 }
 .semicirculo {
-    width: 43%;
-    height: 4vh;
+    width: 50%;
+    height: 5vh;
     border-radius: 0 0 100% 100%;
     background-color: #1563d7;
     border: 2px solid rgba(255, 253, 253, 0.754);
@@ -108,4 +111,56 @@ img.slide {
 article.quienes_somos {
     display: flex;
     flex-direction: row;
+}
+
+#quienes_somos {
+    background-color: #fff;
+    margin: 5% 10%;
+}
+
+.figure_1 {
+    margin-top: -3%;
+}
+
+.qqss {
+    font-size: 64px;
+    font-family: 'Besley';
+    margin-left: 15%;
+    margin-top: -13%;
+    font-weight: 400;
+}
+
+.qqss_p {
+    margin-left: 15%;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    width: 38%;
+    margin-top: 2%
+}
+
+.mujer-poli {
+    float: right;
+    margin-top: -30%;
+}
+
+#publicidad_servicios {
+    background: linear-gradient(to bottom, #1A58D0, rgba(18, 100, 16, 0.8));
+    margin: 0 10%;
+}
+
+.veterinario {
+    margin-left: -1%;
+    margin-top: -4%;
+}
+
+.title_publicidad {
+    color: #fff;
+    font-family: 'Besley', sans-serif;
+    float: right;
+    font-size: 48px;
+    width: 60%;
+    text-align: center;
+    margin-left: -5%;
 }
