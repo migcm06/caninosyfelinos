@@ -8,6 +8,15 @@
     padding: 0;
     margin: 0;
 }
+button {
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    padding: 0; /* Sin padding */
+    margin: 0; /* Sin margen */
+    color: inherit; /* Hereda el color del texto */
+    font: inherit; /* Hereda la fuente */
+    cursor: pointer; /* Cambia el cursor a pointer */
+}
 body {
     display: flex;
     justify-content: center;
@@ -46,7 +55,7 @@ img.icon {
     border: 3px solid #0F0E0E;
     box-shadow: 0 4px 6px rgba(10, 72, 166, 0.5);
     font-size: 27px;
-    font-family: "Sue Ellen Francisco";
+    font-family: "Sue Ellen Francisco",sans-serif;
     cursor: pointer;
     text-align: center;
     margin-top: 10%;
@@ -88,7 +97,7 @@ a {
     width: 50%;
     height: 5vh;
     border-radius: 0 0 100% 100%;
-    background-color: #1563d7;
+    background-color: #135ed0;
     border: 2px solid rgba(255, 253, 253, 0.754);
     border-top-width: 2px;
     border-top-style: solid;
@@ -146,8 +155,13 @@ article.quienes_somos {
 }
 
 #publicidad_servicios {
-    background: linear-gradient(to bottom, #1A58D0, rgba(18, 100, 16, 0.8));
     margin: 0 10%;
+}
+
+.first_square {
+    background: linear-gradient(to bottom, #1057C1, #0994A9);
+    height: 51.6vh;
+    display: flex;
 }
 
 .veterinario {
@@ -158,9 +172,101 @@ article.quienes_somos {
 .title_publicidad {
     color: #fff;
     font-family: 'Besley', sans-serif;
-    float: right;
     font-size: 48px;
-    width: 60%;
+    width: 71%;
     text-align: center;
-    margin-left: -5%;
+    margin-top: 5%;
+}
+
+.text_publicidad {
+    color: white;
+    font-size: 31px;
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 7%;
+}
+
+.botones-publicidad {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    float: right;
+    margin-right: 29%;
+    margin-top: -12%;
+}
+
+.btn {
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    width: 15vw;
+    border-radius: 15px;
+    color: white;
+    border: solid 2px aliceblue;
+}
+
+.agendar {
+    background-color: #1057C1;
+    display: flex;
+    gap: 10%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 14%;
+}
+
+.emergency {
+    background-color: #DD094F;
+    display: flex;
+    gap: 10%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.second_square {
+    margin-top: 1.5%;
+    background-color: #1A8A91;
+    border-radius: 0 0 30px 30px;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.servicios {
+    margin-top: 2%;
+}
+
+.servicio {
+    color: white;
+    font-family: "Sue Ellen Francisco";
+    font-weight: 700;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.paw {
+    width: 20px;
+    height: 20px;
+}
+
+.wtpp {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-us {
+    width: 15%;
+    height: 7vh;
+    margin-bottom: 1%;
+}
+
+#articulo_semanal {
+    background-color: #E8FCFF;
 }
