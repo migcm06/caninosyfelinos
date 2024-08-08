@@ -269,4 +269,46 @@ article.quienes_somos {
 
 #articulo_semanal {
     background-color: #E8FCFF;
+    margin: 4% 10%;
+}
+
+.ribbon {
+    margin-top: 2%;
+    height: 6vh;
+}
+
+.text-articulo {
+    margin-left: 3%;
+}
+
+.title_article, .subtitle {
+    font-family: "Sue Ellen Francisco";
+}
+
+.title_article {
+    font-size: 35px;
+    margin-top: 1%;
+    font-weight: 300;
+}
+.paws1 {
+    width: 3%;
+    position: absolute;
+    left: 38%;
+    top: 278%;
+}
+
+.subtitle {
+    font-size: 22px;
+}
+
+.anuncio {
+    width: 19%;
+    float: right;
+}
+
+.text_article {
+    width: 50%;
+}
+.text_article .a {
+    margin-bottom: 2%;
 }
