@@ -46,6 +46,9 @@ img.icon {
     width: 70%;
     padding-bottom: 20%;
 }
+.icon:hover {
+    transform: scale(1.2); /* Escala al 105% */
+}
 .inicio {
     background-color: #FBFBFB;
     color: #1057C1;
@@ -60,15 +63,35 @@ img.icon {
     text-align: center;
     margin-top: 10%;
 }
+.inicio:hover{
+    background-color: #1057C1;
+    color: #FBFBFB;
+    transform: scale(1.1);
+}
 .carrito {
     width: 5%;
     height: 8vh;
     margin-top: 9.4%;
 }
+.carrito:hover {
+        animation: shake 0.5s;
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        20% { transform: translateX(-5px); }
+        40% { transform: translateX(5px); }
+        60% { transform: translateX(-5px); }
+        80% { transform: translateX(5px); }
+        100% { transform: translateX(0); }
+    }
 nav {
     width: 100%;
     display: flex;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .nav {
     display: flex;
@@ -80,6 +103,9 @@ nav {
     border-left: 5px #F1FDFF solid;
     text-align: center;
     cursor: pointer;
+}
+.rectangulo:hover {
+    background-color: #8DB8F9;
 }
 .rectangulo.one {
     border-left: none;
@@ -105,13 +131,16 @@ a {
     border-top: none;
     z-index: 5;
 }
-
+.semicirculo:hover {
+    background-color: #8DB8F9;
+    transform: scale(1.1);
+}
 .slide-container {
     display: flex;
     justify-content: center;
     margin-top: -2%;
+    cursor: pointer;
 }
-
 img.slide {
     width: 80%;
     height: auto;
@@ -204,7 +233,7 @@ article.quienes_somos {
     width: 15vw;
     border-radius: 15px;
     color: white;
-    border: solid 2px aliceblue;
+    border: solid 2px rgb(161, 211, 255);
 }
 
 .agendar {
@@ -217,6 +246,9 @@ article.quienes_somos {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 14%;
 }
+.agendar:hover {
+    transform: scale(1.05); /* Escala al 105% */
+}
 
 .emergency {
     background-color: #DD094F;
@@ -226,6 +258,9 @@ article.quienes_somos {
     align-items: center;
     padding: 2%;
     font-family: 'Roboto', sans-serif;
+}
+.emergency:hover {
+    transform: scale(1.05); /* Escala al 105% */
 }
 
 .second_square {
@@ -265,11 +300,26 @@ article.quienes_somos {
     width: 15%;
     height: 7vh;
     margin-bottom: 1%;
+    cursor: pointer;
 }
+.contact-us:hover {
+        animation: shake 0.5s;
+    }
+
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        20% { transform: translateX(-5px); }
+        40% { transform: translateX(5px); }
+        60% { transform: translateX(-5px); }
+        80% { transform: translateX(5px); }
+        100% { transform: translateX(0); }
+    }
+
 
 #articulo_semanal {
     background-color: #E8FCFF;
     margin: 4% 10%;
+    border-bottom: 2px solid #0994A9;
 }
 
 .ribbon {
@@ -286,29 +336,83 @@ article.quienes_somos {
 }
 
 .title_article {
-    font-size: 35px;
+    font-size: 50px;
     margin-top: 1%;
     font-weight: 300;
 }
 .paws1 {
     width: 3%;
     position: absolute;
-    left: 38%;
+    left: 49%;
     top: 278%;
 }
 
 .subtitle {
     font-size: 22px;
+    font-weight: 400;
 }
 
 .anuncio {
-    width: 19%;
-    float: right;
+    width: 38%;
+    position: relative;
+    left: 62%;
+    margin-top: -37%;
+    cursor: pointer;
 }
-
 .text_article {
     width: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
 }
-.text_article .a {
+.text_article.a {
     margin-bottom: 2%;
+}
+.anuncio2 {
+    width: 64%;
+    margin-left: -4.4%;
+    cursor: pointer;
+}
+.catdog {
+    margin-top: -9%;
+}
+.paws2 {
+    position: relative;
+    left: 50%;
+}
+footer {
+    margin: 0 10%;
+    background-color: #8BF69B;
+    display: flex;
+}
+.grass_footer {
+    margin: 0 10%;
+    margin-bottom: 0;
+}
+.logo_footer {
+    width: 170%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.right {
+    margin-top: 6%;
+    margin-left: 25%;
+    display: flex;
+}
+.direccion, .telefon, .mail {
+    color: #0A48A6;
+    font-family: 'Roboto', sans-serif;
+}
+.social_networking_footer {
+    width: 40%;
+    margin-top: 6%;
+    margin-left: 5%;
+}
+.iconf {
+    padding-right: 5%;
+    cursor: pointer;
+}
+.iconf:hover {
+    transform: scale(1.2); /* Escala al 105% */
 }
