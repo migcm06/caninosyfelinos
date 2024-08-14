@@ -110,6 +110,7 @@ nav {
     border-left: 5px #F1FDFF solid;
     text-align: center;
     cursor: pointer;
+    border-bottom: 2px #4890fc dashed;
 }
 .rectangulo.one {
     border-left: none;
@@ -131,7 +132,7 @@ a.ini {
     border-top: none;
     z-index: 5;
 }
-.semicirculo:hover, .rectangulo:hover {
+.rectangulo:hover, .carpa.semicirculo:hover {
     background-color: #4890fc;
 }
 .carpa {
