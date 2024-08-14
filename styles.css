@@ -29,7 +29,15 @@ header {
     display: flex;
     justify-content: center;
 }
-
+.logo_social {
+display: flex;
+flex-direction: column;
+}
+img.logo {
+    width: 80%;
+    display: grid;
+    align-self: center;
+}
 .inicio {
     background-color: #FBFBFB;
     color: #1057C1;
@@ -61,6 +69,7 @@ ul.social-icon {
     display: flex;
     justify-content: space-around;
     gap: 10px;
+    margin-top: 2%;
 }
 li.youtube {
     margin-top: 0.5%;
