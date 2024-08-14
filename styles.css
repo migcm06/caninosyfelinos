@@ -107,10 +107,12 @@ nav {
     width: 20vw;
     height: 6vh;
     background-color: #1057C1;
-    border-left: 5px #F1FDFF solid;
+    border-left: 2px #F1FDFF solid;
     text-align: center;
     cursor: pointer;
     border-bottom: 2px #4890fc solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 .rectangulo.one {
     border-left: none;
@@ -121,22 +123,24 @@ a.ini {
     font-size: 29px;
 }
 .semicirculo {
-    width: 35%;
+    width: 9vw;
     height: 5vh;
     border-radius: 0 0 100% 100%;
     background-color: #135ed0;
-    border: 2px solid rgba(255, 253, 253, 0.754);
+    border: 2px solid #4890fc;
     border-top-width: 2px;
     border-top-style: solid;
     border-top-color: rgba(255, 253, 253, 0.754);
     border-top: none;
-    z-index: 5;
 }
 .rectangulo:hover, .carpa.semicirculo:hover {
     background-color: #4890fc;
 }
 .carpa {
     display: flex;
+    position: sticky;
+    top: 6vh;
+    z-index: 1001;
 }
 .slide-container {
     display: flex;
