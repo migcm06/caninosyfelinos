@@ -110,7 +110,7 @@ nav {
     border-left: 5px #F1FDFF solid;
     text-align: center;
     cursor: pointer;
-    border-bottom: 2px #4890fc dashed;
+    border-bottom: 2px #4890fc solid;
 }
 .rectangulo.one {
     border-left: none;
@@ -137,4 +137,12 @@ a.ini {
 }
 .carpa {
     display: flex;
+}
+.slide-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -3%;
+}
+img.slide {
+    width: 100%;
 }
