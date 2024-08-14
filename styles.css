@@ -151,3 +151,11 @@ a.ini {
 img.slide {
     width: 100%;
 }
+
+#quienes_somos {
+    background-color: #FFF;
+    margin-top: 6%;
+}
+img.figure_1 {
+    margin-top: -3%;
+}
