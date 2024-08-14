@@ -158,6 +158,7 @@ article.quienes_somos {
 
 .figure_1 {
     margin-top: -3%;
+    overflow: hidden;
 }
 
 .qqss {
@@ -325,6 +326,7 @@ article.quienes_somos {
 .ribbon {
     margin-top: 2%;
     height: 6vh;
+    overflow: hidden;
 }
 
 .text-articulo {
@@ -372,13 +374,27 @@ article.quienes_somos {
     width: 64%;
     margin-left: -4.4%;
     cursor: pointer;
+    overflow: hidden;
 }
+.anuncio2:hover {
+        animation: shake 0.5s;
+    }
+    @keyframes shake {
+        0% { transform: translateX(0); }
+        20% { transform: translateX(-5px); }
+        40% { transform: translateX(5px); }
+        60% { transform: translateX(-5px); }
+        80% { transform: translateX(5px); }
+        100% { transform: translateX(0); }
+    }
+
 .catdog {
     margin-top: -9%;
 }
 .paws2 {
     position: relative;
     left: 50%;
+    transform: rotate(120deg);
 }
 footer {
     margin: 0 10%;
