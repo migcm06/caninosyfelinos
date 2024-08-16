@@ -432,3 +432,27 @@ footer {
 .iconf:hover {
     transform: scale(1.2); /* Escala al 105% */
 }
+img.figure_1 {
+    margin-top: -3%;
+}
+.qqss {
+    font-size: 55px;
+    font-family: 'Besley';
+    margin-left: 14%;
+    margin-top: -14%;
+    font-weight: 400;
+    width: 51%;
+}
+.qqss_p {
+    margin-left: 15%;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    width: 38%;
+    margin-top: 2%
+}
+.mujer-poli {
+    float: right;
+    margin-top: -30%;
+}

@@ -155,7 +155,25 @@ img.slide {
 #quienes_somos {
     background-color: #FFF;
     margin-top: 6%;
+    display: flex;
 }
-img.figure_1 {
-    margin-top: -3%;
+.figure_1 {
+    width: 67%;
+    height: 39vh;
+    margin-top: -5%;
+}
+.qqss {
+    font-size: 55px;
+    font-family: 'Besley';
+    margin-top: 15%;
+    font-weight: 400;
+    width: 77%;
+}
+.qqss_p {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    width: 89%;
+    margin-top: 2%
 }
