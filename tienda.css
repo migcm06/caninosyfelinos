@@ -1,0 +1,46 @@
+.switcher_dog_cat {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%;
+    height: 6vh
+}
+.dogs{
+    width: 10%;
+    border: 2px solid #A96109;
+    text-align: center;
+    background-color:rgba(221, 9, 79, 0.78);
+    color: white;
+    font-family: "Sue Ellen Francisco",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.switch {
+    border: 3px solid #44D3DC;
+    width: 14%;
+    border-radius: 50px;
+    height: 6vh;
+}
+.littleCircle {
+    background-color: #DD094F;
+    width: 50%;
+    height: 100%;
+    border-radius: 50%;
+}
+.cats{
+    width: 10%;
+    border: 2px solid #09A979;
+    text-align: center;
+    background-color:rgba(12, 135, 2, 0.78);
+    color: white;
+    font-family: "Sue Ellen Francisco",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
