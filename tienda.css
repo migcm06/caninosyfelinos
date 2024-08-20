@@ -134,7 +134,7 @@
 }
 .producto {
     border: solid 2px rgba(43, 31, 31, 0.5);
-    margin: 7% 0%;
+    margin: 7% 1%;
     width: 30%;
     height: 44vh;
     border-radius: 30px;
@@ -153,18 +153,66 @@
     text-align: center;
     font-weight: 400;
     z-index: 22;
-    margin-top: -5%;
+    margin-top: 20%;
     box-sizing: inherit;
+    font-size: 30px;
 }
 .agregar-carrito {
     font-family: 'League Gothic', sans-serif;
     background-color: #13B6A2;
     color: #fff;
-    width: 100%;
+    width: 60%;
     padding: 5%;
     border-radius: 15px;
+    font-size: 25px;
+    margin-top: 8%;
 }
 .cantidad, .vermas, .price {
     font-family: "Sue Ellen Francisco",sans-serif;
     color: #1057C1;
+}
+.vermas {
+    text-decoration: underline;
+}
+.price {
+    font-size: 40px;
+}
+.corazon {
+    background-color: #fff;
+    border: 1px solid #1057C1;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: -19%;
+}
+.cositas {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.cantidad {
+    border: 1px solid #1057C1;
+    border-radius: 15px;
+    padding: 1%;
+    width: 2.5vw;
+    height:4.5vh ;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+.unidades {
+    position: relative;
+    top: -80%;
+}
+.mas {
+    display: flex;
+    
 }
