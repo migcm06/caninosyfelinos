@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
 .home {
     display: flex;
     justify-content: center;
@@ -62,18 +64,19 @@
 .perros {
     width: 68%;
     display: flex;
-    z-index: 20;
-    margin-top: -10%;
+    z-index: 21;
+    margin-top: -11%;
 }
 .sub-container {
     background-color: #ffff;
     border-radius: 20px;
-    margin: -0.5% 1%;
+    margin: 2% 3%;
     padding: 4%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -0.5%;
 }
 .title-info-tienda, .text-tienda {
     font-family: 'Roboto', sans-serif;
@@ -96,4 +99,72 @@
 }
 .brand {
     width: 50%;
+}
+
+.tienda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px dashed #0FCDE7;
+    margin: 2% 10%;
+    border-radius: 30px;
+    background-color: #fff;
+    align-items: center;
+}
+.ribbon-tienda {
+    margin-top: 5%;
+    width: 40%;
+}
+.cuadrado-tienda {
+    background-color: #F1337B;
+    border: 1px solid rgba(243, 185, 165, 0.5);
+    padding: 0% 2%;
+    margin: 2% 0;
+    border-radius: 20px;
+}
+.nav-tienda {
+    display: flex;
+    justify-content: space-around;
+}
+.line {
+    border: #EA0E0E dotted 1px;
+}
+.producto-img {
+    width: 70%;
+}
+.producto {
+    border: solid 2px rgba(43, 31, 31, 0.5);
+    margin: 7% 0%;
+    width: 30%;
+    height: 44vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.producto > h2 {
+    background-color: #0449B1;
+    border: 2px #0E51B7 solid;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    font-family: "Sue Ellen Francisco",sans-serif;
+    text-align: center;
+    font-weight: 400;
+    z-index: 22;
+    margin-top: -5%;
+    box-sizing: inherit;
+}
+.agregar-carrito {
+    font-family: 'League Gothic', sans-serif;
+    background-color: #13B6A2;
+    color: #fff;
+    width: 100%;
+    padding: 5%;
+    border-radius: 15px;
+}
+.cantidad, .vermas, .price {
+    font-family: "Sue Ellen Francisco",sans-serif;
+    color: #1057C1;
 }
