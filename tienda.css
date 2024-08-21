@@ -125,9 +125,17 @@
 .nav-tienda {
     display: flex;
     justify-content: space-around;
+    position: unset;
+    z-index: 1;
 }
 .line {
     border: #EA0E0E dotted 1px;
+    width: 80%;
+}
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .producto-img {
     width: 70%;
@@ -135,8 +143,8 @@
 .producto {
     border: solid 2px rgba(43, 31, 31, 0.5);
     margin: 7% 1%;
-    width: 30%;
-    height: 44vh;
+    width: 27%;
+    height: 49vh;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -173,6 +181,9 @@
 }
 .vermas {
     text-decoration: underline;
+    position: relative;
+    left: 3%;
+    cursor: pointer;
 }
 .price {
     font-size: 40px;
@@ -211,8 +222,47 @@
 .unidades {
     position: relative;
     top: -80%;
+    left: 23%;
 }
-.mas {
+.flechas {
     display: flex;
-    
+    flex-direction: column;
+    gap: 4px;
+    position: relative;
+    left: 12%;
+    top: 4%;
+}
+.flechaArriba {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 14px solid #1057C1; 
+    cursor: pointer;
+}
+.flechaAbajo {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 14px solid #1057C1;
+    cursor: pointer;
+}
+.producto-humedo {
+    width: 45%;
+    margin: 1.5%;
+}
+.producto-cabano {
+    width: 60%;
+    margin: 1%;
+}
+.producto-galletas {
+    width: 79%;
+}
+.producto-bebida {
+    width: 79%;
+}
+.producto-trufa {
+    width: 77%;
+    margin: 1%;
 }
