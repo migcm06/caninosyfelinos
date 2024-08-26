@@ -266,3 +266,57 @@
     width: 77%;
     margin: 1%;
 }
+.masVendidos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3%;
+}
+.ribbon-verde {
+    width: 60%;
+}
+.mas {
+    height: 65vh;
+    width: 20%;
+}
+.descripcion {
+    font-family: 'Roboto';
+    margin: 3%;
+    font-weight: 300;
+}
+.p1 {
+    position: relative;
+    top: -7%;
+}
+.producto-huesitos {
+    width: 46%;
+}
+.p2 {
+    position: relative;
+    top: -7%;
+}
+.p3 {
+    position: relative;
+    top: -5%;
+}
+.vendidos {
+    color: #083271;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    margin-bottom: 15%;
+}
+.jabon {
+    width: 50%;
+}
+.cuore {
+    position: relative;
+    top: -8%;
+}
+.dos {
+    margin-top: 25%;
+}
+.hierba {
+    margin: 0 10%;
+}
