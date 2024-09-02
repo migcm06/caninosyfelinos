@@ -121,3 +121,7 @@
 .arriba {
     margin-top: -5%;
 }
+.home {
+    display: flex;
+    justify-content: center;
+}
