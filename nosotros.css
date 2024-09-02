@@ -127,7 +127,6 @@
 }
 .misionVision {
     margin: 2% 10%;
-    background-color: rgba(197, 232, 243, 0.79);
 }
 h3 {
     color: #3562F5;
@@ -137,8 +136,10 @@ h3 {
 }
 .articles {
     display: flex;
-    margin: 2% ;
-    gap: 10%
+    margin: 2% 2% ;
+    gap: 10%;
+    background-color: rgba(197, 232, 243, 0.79);
+    padding: 2%;
 }
 .greenDeco {
     background-color: #92C90C;
@@ -168,4 +169,23 @@ h3 {
 .titles {
     display: flex;
     justify-content: center;
+}
+.mision {
+    flex-direction: row-reverse;
+    margin-top: 3%;
+}
+.perroG {
+    position: relative;
+    left: -5%;
+}
+.hierbafooter {
+    margin: 0 10%;
+    position: relative;
+    z-index: 45;
+}
+.cato {
+    width: 5%;
+    position: absolute;
+    left: 12%;
+    top: 360%;
 }
