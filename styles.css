@@ -8,6 +8,9 @@
     padding: 0;
     margin: 0;
 }
+html {
+    background-color: white;
+}
 button {
     background: none; /* Sin fondo */
     border: none; /* Sin borde */
@@ -115,7 +118,7 @@ nav {
     display: flex;
 }
 a {
-    font-family: "Sue Ellen Francisco";
+    font-family: "Sue Ellen Francisco", sans-serif;
     color: white;
     font-size: 29px;
 }
