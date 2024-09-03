@@ -1,0 +1,9 @@
+.entrar {
+    background-image: url("./Index (p-1)/iniciopics.png");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: auto; 
+    height: auto;
+    margin: 0 10%;
+}

@@ -1,0 +1,68 @@
+.guarderia {
+    margin: 0 10%
+}
+.blues {
+    background-color: #29E1EB;
+    width: 100%;
+    height: auto;
+    margin-top:1.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.azulclarito {
+    background-color: #EBFEFF;
+    width: 90%;
+    height: auto;
+    margin: 1% 4%;
+    border-radius: 15px;
+}
+.blanco {
+    background-color: white;
+    width: 89%;
+    height: auto;
+    margin: 1% 3%;
+    border-radius: 15px;
+}
+.textguarderia {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 40px;
+    padding: 5%;
+}
+.galeria {
+    margin: 5% 10%;
+    background-color: #E8FBFC;
+}
+.gale {
+    margin-top: 3%;
+    width: 20%;
+}
+.fila-fotos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 2%;
+}
+.tips {
+    float: right;
+    width: 20%;
+    position: relative;
+    top: 3%;
+}
+.titleTips {
+    color: #1057C1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    font-family: "Sue Ellen Francisco",sans-serif;
+    font-size: 40px;
+}
+.myp {
+    display: flex;
+    justify-content: center;
+}
