@@ -1,5 +1,5 @@
 .descripcion-des {
-    margin: 0 10%;
+    margin: 2% 10%;
 }
 .ribbonDes {
     width: 30%;
@@ -9,14 +9,29 @@
     background-color: white;
     border: #0FCDE7 2px dotted;
     border-radius: 20px;
-    display: flex;
+    height: 90vh;
 }
 .dir-desc {
     color: #0A48A6;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 20px;
-    margin: 1% 2%;
+    margin: 3% 2%;
+    line-height: 20px;
+}
+.titlePro {
+    color: #0A48A6;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    font-size: 30px;
+    font-weight: 500;
+    margin: 2% 0;
+}
+.pro-img {
+    display: flex;
+}
+.img-pro {
+    width: 33%;
 }
 .co-des {
     background-color: #fff;
@@ -30,41 +45,21 @@
     padding: 1%;
     border-radius: 15px;
     cursor: pointer;
-    margin-top: 5.5%;
+    margin-top: 2.5%;
     position: relative;
-    right: 3%;
+    right: 6%;
 }
-.pro-img {
-    display: flex;
-    position: relative;
-}
-.img-pro {
-    width: 80%;
-}
-.titlePro {
-    color: #0A48A6;
-    font-family: 'Roboto', sans-serif;
-    width: 90%;
-    font-size: 30px;
-    font-weight: 500;
-    margin: 2% 0;
+.izq {
+    position: absolute;
+    top: 77%;
+    left: 39%;
+    width: 50%;
 }
 .span-pro, .checkT {
     color: #083271b0;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-}
-.recomendado {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-span.span-pro {
-    margin: 2% 0;
-}
-.check {
-    width: 1%;
 }
 .medios {
     font-size: 12px;
@@ -73,8 +68,13 @@ span.span-pro {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
-strong {
-    font-family: 'Roboto', sans-serif;
+.recomendado {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.check {
+    width: 1%;
 }
 .pesoytamano {
     display: flex;
@@ -99,24 +99,29 @@ strong {
     margin-top: 2%;
     gap: 20px;
 }
+.caracteristicas {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-top: -24%;
+    position: relative;
+    left: 36%;
+}
 .titleCarac {
     color: #002B6C;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 500;
-    margin: 2% 3%;
-}
-.caracteristicas {
-    display: flex;
-    flex-direction: column;
-    width: auto;
+    margin: 2% 0%;
 }
 .cadaUna {
     display: flex;
     gap: 10px;
     margin-top: 0.5%;
-    margin-left: 3%;
 }
 .checkgreen {
     width: 1.5%;
+}
+.final {
+    margin-bottom: 4%;
 }
