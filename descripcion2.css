@@ -9,7 +9,9 @@
     background-color: white;
     border: #0FCDE7 2px dotted;
     border-radius: 20px;
-    height: 90vh;
+    height: auto;
+    overflow-x: hidden;
+    padding-bottom: 3%;
 }
 .dir-desc {
     color: #0A48A6;
@@ -31,7 +33,7 @@
     display: flex;
 }
 .img-pro {
-    width: 33%;
+    width: 75%;
 }
 .co-des {
     background-color: #fff;
@@ -103,9 +105,9 @@
     display: flex;
     flex-direction: column;
     width: auto;
-    margin-top: -24%;
     position: relative;
-    left: 36%;
+    left: 27%;
+    margin-top: 7%;
 }
 .titleCarac {
     color: #002B6C;
@@ -120,8 +122,89 @@
     margin-top: 0.5%;
 }
 .checkgreen {
-    width: 1.5%;
+    width: 6%;
+    opacity: 0.5;
 }
 .final {
     margin-bottom: 4%;
+}
+strong {
+    font-family: 'Roboto', sans-serif;
+}
+.contadorThing {
+    margin-top: 5%;
+    margin-right: 19%;
+}
+.cosas-del-producto {
+    display: flex;
+    flex-direction: row;
+}
+.contador {
+    display: flex;
+    gap: 40px;
+}
+.cont {
+    display: flex;
+    gap: 40px;
+}
+.zero {
+    width: 40px;
+    height: 40px;
+    border: 1px blue solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-top: -8%;
+}
+.cnt {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.canti {
+    font-size: 22px;
+}
+#comprar {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    margin-top: 3%;
+    background-color: #0a48a6;
+    padding: 2%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    border-radius: 22px;
+    border: 1px solid #168bcd;
+}
+.des-title {
+    font-family: 'Roboto', sans-serif;
+    color: #1057c1;
+    margin: 2% 5%;
+}
+.des-text {
+    font-family: 'Roboto', sans-serif;
+    margin: 1% 5%;
+    width: 90%;
+    text-align: justify;
+    line-height: 24px;
+}
+.des-segundo-title {
+    font-family: 'Roboto', sans-serif;
+    color: #1057c1;
+    margin: 0 5%;
+}
+.listafinal {
+    margin: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+.lista-f {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #051835;
 }
