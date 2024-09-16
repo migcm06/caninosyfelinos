@@ -54,22 +54,90 @@
     </nav> 
         <section class="inicio-crear">
             <div class="entrar-crear"></div>
-                <div class="overlay"></div>
-                <div class="container-inicio">
+                <div class="overlay-crear"></div>
+                <div class="container-crear">
                         <a href="./index.html" class="close-button"><span class="cerrar">x</span></a>
-                        <h2 class="entrar-ti">Bienvenido</h2>
+                        <h2 class="entrar-ti">Registro</h2>
                         <form>
-                            <label for="email"><b>Correo electrónico:</b></label>
-                            <input type="text" placeholder="Ingrese su correo electrónico" name="email" required>
+                            <div id="nombre-c">
+                                <label for="nombre">Nombre y Apellidos:*</label>
+                                <input type="text" id="nombre" name="nombre" required placeholder="Su nombre completo">
+                            </div>
+                            <div id="id">
+                                <label for="tipo_id">Tipo de ID:*</label>
+                                <select id="tipo_id" name="tipo_id" required>
+                                    <option value=""></option>
+                                    <option value="cedula">Cédula</option>
+                                    <option value="tarjeta de identidad">T. I</option>
+                                    <option value="PPT">PPT</option>
+                                    <option value="pasaporte">Pasaporte</option>
+                                </select> 
+                            </div>
+                            <div id="no-id">
+                                <label for="no_id">No. de ID:*</label>
+                                <input type="text" id="no_id" name="no_id" required>
+                            </div>
+                            
+                            <div id="email-c">
+                                <label for="email" >E-mail:*</label>
+                                <input type="email" id="email" name="email" >
+                            </div>
+                             
+                            <div id="telefono-c">
+                                <label for="telefono">Número de Celular:*</label>
+                                <input type="tel" id="telefono" name="telefono" >
+                            </div>
+
+                            <div id="ubicacion-c">
+                                <label for="ubicacion">Ubicación:*</label>
+                                <input type="text" id="ubicacion" name="ubicacion" required>    
+                            </div>
+                            <div id="especie-c">
+                                <label for="especie">Especie de su mascota:*</label>
+                                <select id="especie" name="especie" required>
+                                    <option value="">Selecciona...</option>
+                                    <option value="perro">Perro</option>
+                                    <option value="gato">Gato</option>
+                                </select>   
+                            </div>
+                            <div id="nombre-m">
+                                <label for="nombre_mascota">Nombre de la mascota:*</label>
+                                <input type="text" id="nombre_mascota" name="nombre_mascota" required>
+                            </div>
+                            <div id="genero-c">
+                                <label for="genero">Género:*</label>
+                                <select id="genero" name="genero" required>
+                                    <option value="">Selecciona...</option>
+                                    <option value="masculino">Masculino</option>
+                                    <option value="femenino">Femenino</option>  
+                                </select>
+                            </div>
+                            <div id="edad-c">
+                                <label for="edad">Edad:*</label>
+                                <input type="number" id="edad" name="edad" required>
+                            </div>
+                            <div id="primera-c">
+                                <label for="primera_vez">Primera vez:*</label>
+                                <select id="primera_vez" name="primera_vez" required>
+                                    <option value="">Selecciona...</option>
+                                    <option value="si">Sí</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                            <div id="codigo-c">
+                                <label for="codigo">Código de Invitación:</label>
+                                <input type="text" id="codigo" name="codigo_invitacion">
+                            </div>
+                            <div id="check">
+                                <input type="checkbox" id="terminos" name="terminos" required>
+                                <label for="terminos">Acepto términos y condiciones</label>
+                                <p class="span">¿Ya tienes una cuenta? <a href="./inicio.html" class="letra">Entra!</a></p>
+                            </div>
                 
-                            <label for="psw"><b>Contraseña:</b></label>
-                            <input type="password" placeholder="Ingrese su contraseña" name="psw" required>   
                 
                 
-                            <a href="#" class="letra">¿Olvidó su contraseña?</a>
-                
-                            <button type="submit" class="iniciar-seccion">Iniciar Sesión</button>
-                            <p class="span">¿No tienes una cuenta? <a href="./crear.html" class="letra">Crea una</a></p>
+                            <button type="submit" class="iniciar-seccion">Registrarse</button>
+                            
                         </form>
                 </div>
                 
@@ -78,7 +146,7 @@
             
         </section>
         
-            <img src="./header/grass.png" alt="hierba" class="grass_footer" id="gras-fo">
+            <img src="./header/grass.png" alt="hierba" class="grass_footer" id="gras-fo-cre">
             <footer> 
                 <div class="left">
                     <img src="./header/Logo 1.png" alt="" class="logo_footer" width="441px" height="142px">
