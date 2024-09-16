@@ -74,7 +74,7 @@ img.icon {
 .carrito {
     width: 5%;
     height: 8vh;
-    margin-top: 9.4%;
+    margin-top: 8.5%;
 }
 .carrito:hover {
         animation: shake 0.5s;
