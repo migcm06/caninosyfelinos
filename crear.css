@@ -1,0 +1,11 @@
+.inicio-crear {
+    margin: 0 10%;
+}
+.entrar-crear {
+    background-image: url(./Index\ \(p-1\)/catdoggy.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 75%;
+    height: 120vh;
+    margin: 0 10%;
+}

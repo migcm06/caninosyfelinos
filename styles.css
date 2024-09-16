@@ -443,17 +443,15 @@ footer {
     top: -10%;
 }
 .slide-container {
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
     overflow: hidden;
-    margin: -4% 10%;
-    margin-bottom: 3%;
+    margin: -2% 10%;
+    margin-bottom: 2%;
 }
 .slider-wrapper {
     position: relative;
     max-width: 100%;
     overflow: hidden;
+    height: 50vh;
 }
 .slider {
     display: flex;
