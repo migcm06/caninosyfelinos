@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caninos & Felinos</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./citas.css">
+    <link rel="stylesheet" href="./apartar-cita.css">
+</head>
+<body>
+    <nav>
+        <ul class="nav">
+            <li><a href="./tienda.html" class="ini">
+                <div class="rectangulo one">
+                    TIENDA
+                </div></a>
+                <div class="carpa">
+                    <div class="semicirculo"></div>
+                    <div class="semicirculo b"></div>
+                    <div class="semicirculo c"></div>
+                </div>
+            </li>
+            <li>
+                <a href="./nosotros.html" class="ini"><div class="rectangulo">NOSOTROS</div></a>
+                    <div class="carpa">
+                        <div class="semicirculo d"></div>
+                        <div class="semicirculo e"></div>
+                        <div class="semicirculo f"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="./citas.html" class="ini"><div class="rectangulo">
+                    CITAS</div></a>
+                    <div class="carpa">
+                        <div class="semicirculo g"></div>
+                        <div class="semicirculo h"></div>
+                        <div class="semicirculo i"></div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="./guarderia.html" class="ini"><div class="rectangulo">
+                    GUARDERÍA</div></a>
+                    <div class="carpa">
+                        <div class="semicirculo j"></div>
+                        <div class="semicirculo k"></div>
+                        <div class="semicirculo l"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        </nav>
+        <div class="container-urgencia">
+            <span class="close-button">&times;</span>
+            <h2>URGENCIAS</h2>
+    
+            <form>
+                <label for="motivo">Describa el motivo de su urgencia:*</label>
+                <textarea id="motivo" name="motivo" required></textarea>
+    
+                <label for="nombre">Nombre y Apellidos:*</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="telefono">Número de   
+     Celular:*</label>
+                <input type="tel" id="telefono" name="telefono" required>
+    
+                <label for="especie">La especie de su mascota:*</label>
+                <input type="text" id="especie" name="especie" required>
+                <label for="atencion_domicilio">Atención en su domicilio:</label>
+                <input type="checkbox" id="atencion_domicilio" name="atencion_domicilio">
+    
+                <label for="genero">Género:*</label>
+                <select id="genero" name="genero" required>
+                    <option value="">Seleccionar</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>   
+    
+                </select>
+                <label for="edad">Edad:*</label>
+                <input type="number"   
+     id="edad" name="edad" min="0" required>
+                <label for="primera_vez">Primera vez:</label>
+                <input type="checkbox" id="primera_vez" name="primera_vez">
+                <label for="ambulancia">Servicio de Ambulancia:*</label>
+                <input type="checkbox" id="ambulancia" name="ambulancia" required>
+    
+                <div class="calendario">
+                    <h3>Junio</h3>
+                    </div>
+    
+                <div class="horarios">
+                    <label for="manana">Mañana</label>
+                    <input type="radio" id="manana" name="horario" value="manana">
+                    <label for="tarde">Tarde</label>
+                    <input type="radio" id="tarde" name="horario" value="tarde">
+                </div>
+    
+                <div class="terminos">
+                    <input type="checkbox" id="terminos" name="terminos" required>
+                    <label for="terminos">Acepto términos y condiciones</label>   
+    
+                </div>
+    
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+        <img src="./Index (p-1)/hierba.png" alt="" class="hierbaCI hierbaapa">
+        <footer> 
+            <div class="left">
+                <img src="./header/Logo 1.png" alt="" class="logo_footer" width="441px" height="142px">
+            </div>
+            <div class="right">
+                <spam class="direccion"><img src="./header/ubicacion.png" alt="" class="ubicacion">DIRECCIÓN: CRA 5 # 5 - 48</spam>
+                <spam class="telefon"><img src="./header/telefono.png" alt="" class="phone">TELÉFONO: 3113736494</spam>
+                <spam class="mail"><img src="./header/mail.png" alt="" class="mail2">EMAIL: CANINOSYFELINO@SENA.EDU.CO</spam>
+            </div>
+            <div class="social_networking_footer">
+                <img src="./header/mdi_instagram.png" alt="logo de instagram" class="iconf">
+                <img src="./header/ic_baseline-whatsapp.png" alt="logo de whatsapp" class="iconf">
+                <img src="./header/youtube.png" alt="logo de youtube" class="iconf">
+                <img src="./header/facebook.png" alt="logo de facebook" class="iconf">
+            </div>    
+        </footer>
+</body>
+</html>

@@ -91,7 +91,7 @@ label {
     color: red;
     position: relative;
     top: -85%;
-    left: 50%;
+    left: 85%;
     font-size: 50px;
 }
 .iniciar-seccion {
@@ -103,4 +103,7 @@ label {
     margin: 3% 0%;
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+.container-urgencia {
+    margin: 0 10%;
 }
