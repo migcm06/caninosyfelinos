@@ -78,7 +78,6 @@
     display: flex;
     justify-content: space-around;
     gap: 10%;
-    margin-top: -15%;
 }
 .citarPic {
     border-radius: 7%;
