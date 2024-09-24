@@ -105,5 +105,138 @@ label {
     font-family: 'Roboto', sans-serif;
 }
 .container-urgencia {
-    margin: 0 10%;
+    margin: 0 11%;
+    background-image: url(./Index\ \(p-1\)/urgencia.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: -2%;
+    height: 95vh;
+}
+.overlay-urgencia {
+    background-color: rgba(6, 79, 128, 0.575);
+    width: 60vw;
+    height: 75vh;
+    border-radius: 1.5rem;
+    margin: 3%;
+    margin-top: 4%;
+}
+#urgencia {
+    position: relative;
+    margin-top: -55%;
+    font-family: "Sue Ellen Francisco", sans-serif;
+    color: #DD094F;
+    font-size: 40px;
+    left: -33%;
+}
+#urgencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#motivo {
+    position: relative;
+    right: 28%;
+}
+.text-form {
+    color: white;
+}
+#motivos-ur {
+    border: none;            
+    outline: none;            
+    box-shadow: none;       
+    -webkit-appearance: none; 
+    -moz-appearance: none;    
+    appearance: none;       
+    box-sizing: border-box; 
+    width: 130%;
+    height: 5vh;
+    margin: 2% 0;
+    border-radius: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    border: 1px rgb(197, 20, 138) solid;
+    padding: 1%;
+}
+.nombre {
+    position: relative;
+    margin-top: -6%;
+}
+.ur {
+    border: none;            
+    outline: none;          
+    box-shadow: none;        
+    -webkit-appearance: none; 
+    -moz-appearance: none;    
+    appearance: none;       
+    box-sizing: border-box; 
+    width: 200%;
+    height: 5.3vh;
+    margin: 2% 0;
+    border-radius: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    border: 1px rgb(197, 20, 138) solid;
+    padding: 1%;
+}
+.telefono {
+    position: relative;
+    left: -32.6%;
+    margin-top: 2%;
+}
+#telefono-u {
+    width: 227%;
+    height: 5vh;
+}
+#especie-u {
+    position: relative;
+    margin-top: -5.2%;
+    left: 1%;
+}
+#especie-ur {
+    margin: 2% 0;
+    border-radius: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    border: 1px rgb(197, 20, 138) solid;
+    height: 5vh;
+    width: 171%;
+}
+.atencion {
+    position: relative;
+    left: -31%;
+    margin-top: 1%;
+}
+.atencio {
+    margin: 2% 0;
+    border-radius: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    border: 1px rgb(197, 20, 138) solid;
+    height: 5vh;
+    width: 181%;
+}
+.genero {
+    position: relative;
+    margin-top: -5.3%;
+    left: -3%;
+}
+.ambulancia {
+    position: relative;
+    margin-top: 1%;
+    left: -31%;
+}
+#close-ur {
+    position: absolute;
+    color: red;
+    font-size: 40px;
+    top: 15%;
+    left: 69%;
+    font-family: "Sue Ellen Francisco", sans-serif;
+}
+.-urg {
+    position: relative;
+    left: -25.2%;
+    width: 26%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
