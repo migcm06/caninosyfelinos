@@ -12,13 +12,13 @@ html {
     background-color: white;
 }
 button {
-    background: none; /* Sin fondo */
-    border: none; /* Sin borde */
-    padding: 0; /* Sin padding */
-    margin: 0; /* Sin margen */
-    color: inherit; /* Hereda el color del texto */
-    font: inherit; /* Hereda la fuente */
-    cursor: pointer; /* Cambia el cursor a pointer */
+    background: none; 
+    border: none; 
+    padding: 0; 
+    margin: 0; 
+    color: inherit; 
+    font: inherit; 
+    cursor: pointer; 
 }
 body {
     display: flex;
@@ -71,10 +71,16 @@ img.icon {
     color: #FBFBFB;
     transform: scale(1.1);
 }
+.carrito-img {
+    width: 20%;
+}
 .carrito {
+    background-image: url(./header/carrito.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
     width: 5%;
-    height: 8vh;
-    margin-top: 8.5%;
+    margin-top: 6%;
 }
 .carrito:hover {
         animation: shake 0.5s;
@@ -456,7 +462,6 @@ footer {
 .slider {
     display: flex;
     scroll-snap-type: x mandatory;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     animation: slide 16s infinite;
 }
 .slider img {
@@ -465,26 +470,7 @@ footer {
     object-fit: cover;
     border-radius: 0.5rem;
 }
-.slider-nav {
-    display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-}
-.slider-nav a {
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: 50%;
-    background-color: #1c074da9;
-    opacity: 0.75;
-    transition: opacity ease 250ms;
-}
-.slider-nav a:hover {
-    opacity: 1;
-}
+
 @keyframes slide {
     0%, 25% {
         transform: translateX(0); /* Primera imagen */
@@ -498,4 +484,184 @@ footer {
     90%, 100% {
         transform: translateX(-300%); /* Cuarta imagen */
     }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        width: 60%;
+        margin-top: 5%;
+        align-self: center;
+        cursor: pointer;
+    }
+    .inicio {
+        color: #1057C1;
+        width: 13%;
+        height: 5vh;
+        border-radius: 25px;
+        border: 3px solid #0F0E0E;
+        box-shadow: 0 4px 6px rgba(10, 72, 166, 0.5);
+        font-size: 27px;
+        font-family: "Sue Ellen Francisco", sans-serif;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 11%;
+    }
+    .carrito {
+        width: 10%;
+        margin-top: -1%;
+    }
+    header {
+        margin: 0 2%;
+    }
+    .rectangulo {
+        width: 24.5vw;
+        height: 5vh;
+    }
+    .slide-container {
+        margin: -4% 0%;
+    }
+    .semicirculo {
+        height: 3vh;
+    }
+    .slider-wrapper {
+        height: 27vh;
+    }
+    
+    .slider img {
+        flex: 1 0 50%;
+        object-fit: contain;
+        border-radius: 0.25rem;
+        width: 100%;
+        margin-top: 2.5%;
+    }
+    #quienes_somos {
+        margin: 6% 0%;
+    }
+    .figure_1 {
+        width: 13%;
+    }
+    .qqss {
+        font-size: 51px;
+        margin-top: -18%;
+    }
+    .qqss_p {
+        font-size: 26px;
+        width: 75%;
+    }
+    .mujer-poli {
+        margin-top: -5%;
+        width: 42%;
+    }
+    #publicidad_servicios {
+        margin: 0 0%;
+    }
+    .veterinario {
+        margin-top: 14%;
+        width: 50%;
+        height: 76%;
+    }
+    .title_publicidad {
+        color: #fff;
+        font-family: 'Besley', sans-serif;
+        font-size: 48px;
+        width: 71%;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .title_publicidad {
+        font-size: 31px;
+        width: 93%;
+        margin-left: -14%;
+        margin-top: 10%;
+    }
+    .first_square {
+        height: 35vh;
+    }
+    .text_publicidad {
+        font-size: 24px;
+        width: 65%;
+        margin-left: -5%;
+        margin-top: 21%;
+    }
+    .btn {
+        width: 20vw;
+    }
+    .botones-publicidad {
+        margin-right: 27%;
+        margin-top: -16%;
+    }
+    .contact-us {
+        width: 25%;
+        height: 6vh;
+    }
+    .servicio {
+        font-weight: 600;
+        font-size: 20px;
+    }
+    #articulo_semanal {
+        margin: 10% 0%;
+    }
+    .title_article {
+        font-size: 41px;
+    }
+    .text_article {
+        width: 100%;
+        font-size: 22px;
+    }
+    .anuncio {
+        display: none;
+    }
+    .anuncio2 {
+        width: 64%;
+        margin-left: -4.4%;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    .anuncio2 {
+        width: 70%;
+        margin-left: 27.6%;
+        margin-top: -16%;
+    }
+    .catdog {
+        width: 35%;
+        margin-left: -4%;
+    }
+    .grass_footer {
+        margin: 0 0%;
+    }
+    footer {
+        margin: 0 0%;
+        background-color: #8BF69B;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 39vh;
+    }
+    .logo_footer {
+        width: 70%;
+        height: 15vh;
+        margin-top: 7%;
+        margin-left: 15%;
+        margin-bottom: 1%;
+    }
+    .social_networking_footer {
+        width: 40%;
+        margin-top: 6%;
+        margin-left: 5%;
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        margin-top: -1%;
+    }
+    .direccion, .telefon, .mail {
+        color: #4d0a0a;
+        font-family: "Sue Ellen Francisco",sans-serif;
+        font-size: 20px;
+    }
+    
 }
