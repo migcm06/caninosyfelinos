@@ -10,6 +10,7 @@
 }
 html {
     background-color: white;
+    height: auto;
 }
 button {
     background: none; 
@@ -556,7 +557,7 @@ footer {
         margin: 0 0%;
     }
     .veterinario {
-        margin-top: 14%;
+        margin-top: 9.5%;
         width: 50%;
         height: 76%;
     }
@@ -581,7 +582,7 @@ footer {
         font-size: 24px;
         width: 65%;
         margin-left: -5%;
-        margin-top: 21%;
+        margin-top: 8%;
     }
     .btn {
         width: 20vw;
@@ -647,8 +648,7 @@ footer {
     }
     .social_networking_footer {
         width: 40%;
-        margin-top: 6%;
-        margin-left: 5%;
+        margin-top: 1%;
     }
     .right {
         display: flex;
