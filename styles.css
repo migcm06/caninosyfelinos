@@ -495,16 +495,10 @@ footer {
         cursor: pointer;
     }
     .inicio {
-        color: #1057C1;
         width: 13%;
         height: 5vh;
         border-radius: 25px;
-        border: 3px solid #0F0E0E;
-        box-shadow: 0 4px 6px rgba(10, 72, 166, 0.5);
-        font-size: 27px;
-        font-family: "Sue Ellen Francisco", sans-serif;
-        cursor: pointer;
-        text-align: center;
+        font-size: 22px;
         margin-top: 11%;
     }
     .carrito {
@@ -517,6 +511,7 @@ footer {
     .rectangulo {
         width: 24.5vw;
         height: 5vh;
+        font-size: 24px;
     }
     .slide-container {
         margin: -4% 0%;
