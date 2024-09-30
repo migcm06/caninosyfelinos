@@ -231,16 +231,16 @@ h3 {
         margin-top: 2.7%;
     }
     .perro {
-        width: 13%;
+        width: 17%;
         position: absolute;
-        top: 43%;
+        top: 31%;
         left: 0%;
     }
     .hierba {
         width: 33%;
         height: 5%;
         position: absolute;
-        top: 48.7%;
+        top: 35.81%;
         z-index: 90;
     }
     .ece {

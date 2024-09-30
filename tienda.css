@@ -320,3 +320,66 @@
 .hierba {
     margin: 0 10%;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .switcher_dog_cat {
+        margin: 5% 0%;
+
+    }
+    .switch {
+        width: 20%;
+    }
+    .tienda {
+        margin: 2% 2%;
+    }
+    .producto > h2 {
+        width: 103%;
+        margin-top: 20%;
+        font-size: 20px;
+    }
+    .producto {
+        height: 33vh;
+    }
+    .vermas {
+        font-size: 20px;
+    }
+    .price {
+        font-size: 25px;
+    }
+    .unidades {
+        top: -104%;
+        left: 66%;
+    }
+    .cantidad {
+        border: 1px solid #1057C1;
+        border-radius: 15px;
+        width: 3vw;
+        height: 3.3vh;
+        display: flex;
+        justify-content: center;
+        margin-top: 14%;
+    }
+    .corazon {
+        left: 47%;
+        top: -11%;
+        width: 45px;
+        height: 60px;
+    }
+    .agregar-carrito {
+        font-size: 24px;
+
+    }
+    .mas {
+        width: 31%;
+        height: 50vh;
+    }
+    #cuore, #cuore2, #cuore1 {
+        top: 5%;
+    }
+    .hierba {
+        margin: 0 0%;
+    }
+    .masVendidos {
+        margin: 0 2%;
+    }
+}
