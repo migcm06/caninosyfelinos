@@ -328,27 +328,31 @@
     }
     .switch {
         width: 20%;
+        height: 5vh;
     }
     .tienda {
         margin: 2% 2%;
     }
     .producto > h2 {
         width: 103%;
-        margin-top: 20%;
+        margin-top: -1%;
         font-size: 20px;
     }
     .producto {
-        height: 33vh;
+        height: 27vh;
+        border-radius: 17px;
     }
     .vermas {
         font-size: 20px;
     }
     .price {
         font-size: 25px;
+        top: 80%;
+        position: relative;
     }
     .unidades {
-        top: -104%;
-        left: 66%;
+        top: 104%;
+        left: 81%;
     }
     .cantidad {
         border: 1px solid #1057C1;
@@ -360,26 +364,49 @@
         margin-top: 14%;
     }
     .corazon {
-        left: 47%;
-        top: -11%;
+        left: 45%;
+        top: -2%;
         width: 45px;
         height: 60px;
     }
     .agregar-carrito {
-        font-size: 24px;
-
+        font-size: 22px;
+        position: relative;
+        top: 13%;
     }
     .mas {
         width: 31%;
-        height: 50vh;
+        height: 43vh;
     }
     #cuore, #cuore2, #cuore1 {
-        top: 5%;
+        top: -13%;
     }
     .hierba {
         margin: 0 0%;
     }
     .masVendidos {
         margin: 0 2%;
+    }
+    .littleCircle {
+        width: 25%;
+        height: 77%;
+        position: relative;
+        top: 10%;
+    }
+    .productos {
+        gap: 5%;
+    }
+
+    #p2, #p3, #p1  {
+        margin-top: 6%;
+    }
+    .ribbon-verde {
+        margin-top: 5%;
+    }
+    .producto-img {
+        margin-top: 15%;
+    }
+    .final {
+        top: 4%;
     }
 }
