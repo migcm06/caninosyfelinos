@@ -109,3 +109,61 @@
 .hierbaCI {
     margin: 0 10%;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .flyer {
+        margin: -10% 1%;
+    }
+    .apartar {
+        margin: 0 1%;
+    }
+    .fushiaDeco {
+        height: 4vh;
+        width: 100%;
+    }
+    .citarPic {
+        width: 400%;
+    }
+    .titleC {
+        font-size: 31px;
+        position: relative;
+        left: 5%;
+    }
+    .citatext {
+        line-height: 20px;
+        width: 50%;
+        position: relative;
+        left: 17%;
+    }
+    .apartar-citaS {
+        margin-top: 16%;
+        padding: 2% 3%;
+        border-radius: 15px;
+        display: flex;
+        justify-content: space-around;
+        gap: 10%;
+    }
+    .agendar-cita {
+        position: relative;
+        left: 33%;
+    }
+    #urgencias {
+        margin-top: -29%;
+    }
+    #right {
+        position: relative;
+        right: 32%; 
+    }
+    #left {
+        position: relative;
+        right: 37%;
+        margin-top: 3%;
+    }
+    #img-r {
+        position: relative;
+        right: 40%;
+        margin-top: 3%; 
+    }
+    .hierbaCI {
+        margin: 2% 0 0;
+    }
+}
