@@ -67,3 +67,14 @@
     display: flex;
     justify-content: center;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .guarderia {
+        margin: 0%;
+        margin-top: -12%;
+    }
+    .textguarderia {
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 28px;
+    }
+}
