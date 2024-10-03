@@ -156,3 +156,101 @@
 #check {
     margin: 8%;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .entrar-crear {
+        background-position: right;
+        width: 127%;
+        margin-left: -14%;
+    }
+    .container-crear {
+        background-color: rgb(12 128 89 / 76%);
+        border-radius: 2.5rem;
+        width: 78vw;
+        position: inherit;
+        margin-top: -207%;
+        margin-bottom: 20%;
+        padding-bottom: 8%;
+    }
+    .overlay-crear {
+        display: none;
+    }
+    input[type="text"], input[type="password"] {
+        width: 80%;
+        padding: 5% 3%;
+        margin: 2% 0;
+    }
+    #nombre-c {
+        position: relative;
+        right: 36%;
+    }
+    #id {
+        left: 20%;
+        margin-top: -25%;
+    }
+    #no-id {
+        left: 60%;
+        margin-top: -24.5%;
+    }
+    #email-c {
+        margin-top: 5%;
+        right: 52%;
+    }
+    #email {
+        width: 122%;
+    }
+    #telefono-c {
+        margin-top: -25%;
+        right: -51%;
+    }
+    #telefono{
+        width: 74%;
+    }
+    #ubicacion-c {
+        margin-top: 2%;
+        right: 48%;
+    }
+    #ubicacion {
+        width: 108%;
+    }
+    #especie-c {
+        right: -49%;
+        margin-top: -26%;
+    }
+    #especie {
+        width: 78%;
+    }
+    #nombre-m {
+        margin-top: 3%;
+        left: -33%;
+    }
+    #nombre_mascota {
+        width: 76%;
+    }
+    #genero-c {
+        margin-top: 3%;
+        position: relative;
+        right: -30%;
+    }
+    #edad-c {
+        margin-top: -53%;
+        left: 27%;
+    }
+    #edad {
+        width: 58%;
+    }
+    #primera-c {
+        margin-top: -24%;
+        left: 57%;
+    }
+    #codigo-c {
+        position: relative;
+        margin-top: 4.5%;
+        left: -37%;
+    }
+    #genero {
+        width: 137%;
+    }
+    #codigo {
+        width: 83%;
+    }
+}

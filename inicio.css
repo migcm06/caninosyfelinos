@@ -113,3 +113,31 @@ b {
     font-family: 'Roboto';
     font-weight: 300;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    .rectangulo {
+        width: 25.5vw;
+        height: 4vh;
+        font-size: 24px;
+    }
+    .entrar {
+        background-position: right;
+        width: 98%;
+        height: 73vh;
+        margin-top: -2%;
+    }
+    .container-inicio {
+        padding: 6%;
+        border-radius: 2.5rem;
+        width: 44vw;
+        top: 15%;
+    }
+    .overlay {
+        width: 54vw;
+        height: 54vh;
+        margin-top: -96%;
+    }
+    .cerrar {
+        position: relative;
+        left: 180%;
+    }
+}
