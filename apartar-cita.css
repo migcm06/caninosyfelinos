@@ -240,3 +240,43 @@ label {
     justify-content: center;
     align-items: center;
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+    #Solicitud-ti {
+    font-family: "Sue Ellen Francisco", sans-serif;
+    color: rgb(15, 18, 199);
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: -166%;
+    margin-left: 4%;
+    }
+    .overlay-apartar {
+        width: 77vw;
+    }
+    .izq {
+        margin-top: -25.4%;
+        left: 59%;
+    }
+    .nombre-mas {
+        margin-top: 0.5%;
+        left: 1%;
+    }
+    .edad {
+        margin-top: -25.12%;
+        left: 46%;
+    }
+    .hora {
+        margin-top: -26%;
+        left: 46%;
+    }
+    .container-apartar {
+        height: 86vh;
+    }
+    .cerrar {
+        top: -98%;
+    }
+    .iniciar-seccion {
+        height: 4vh;
+        margin: 12% 0%;
+    }
+}
+
