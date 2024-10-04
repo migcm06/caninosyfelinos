@@ -144,7 +144,7 @@
     border: solid 2px rgba(43, 31, 31, 0.5);
     margin: 7% 1%;
     width: 27%;
-    height: 42vh;
+    height: 54vh;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -162,9 +162,13 @@
     font-weight: 400;
     z-index: 22;
     box-sizing: inherit;
-    font-size: 37px;
-    margin-top: -15%;
+    font-size: 34px;
+    margin-top: -10%;
     height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
 }
 .agregar-carrito {
     font-family: 'League Gothic', sans-serif;
@@ -225,7 +229,7 @@
 }
 .unidades {
     position: relative;
-    top: -76%;
+    top: -119%;
     left: 13%;
     font-size: 23px;
 }
@@ -318,7 +322,7 @@
 }
 .cuore {
     position: relative;
-    top: -6%;
+    top: -18%;
 }
 .dos {
     margin-top: 25%;
@@ -338,14 +342,14 @@
     z-index: 22;
     box-sizing: inherit;
     font-size: 37px;
-    margin-top: -2%;
+    margin-top: 15%;
     height: 5vh;
 }
 .two {
         top: -6%;
     }
 .final {
-    top: 8%;
+    top: -2%;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
