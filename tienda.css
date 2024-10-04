@@ -322,7 +322,7 @@
 }
 .cuore {
     position: relative;
-    top: -18%;
+    top: -24%;
 }
 .dos {
     margin-top: 25%;
@@ -341,15 +341,18 @@
     font-weight: 400;
     z-index: 22;
     box-sizing: inherit;
-    font-size: 37px;
-    margin-top: 15%;
+    font-size: 30px;
+    margin-top: 24%;
     height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .two {
         top: -6%;
     }
 .final {
-    top: -2%;
+    top: -7%;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

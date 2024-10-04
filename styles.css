@@ -115,7 +115,7 @@ nav {
     border-left: 5px #F1FDFF solid;
     text-align: center;
     cursor: pointer;
-    font-size: 38px;
+    font-size: 35px;
 }
 .rectangulo:hover {
     background-color: #8DB8F9;
@@ -393,7 +393,7 @@ article.quienes_somos {
 }
 .anuncio2 {
     width: 64%;
-    margin-left: -3%;
+    margin-left: -4.5%;
     cursor: pointer;
     overflow: hidden;
 }
