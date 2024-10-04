@@ -119,6 +119,7 @@
     }
     .apartar {
         margin: 0 1%;
+        gap: 264px;
     }
     .fushiaDeco {
         height: 4vh;
@@ -172,5 +173,11 @@
     }
     #herci {
         margin-top: 4%;
+    }
+    .citatext {
+        font-size: 16px;
+    }
+    #cita {
+        margin-top: 4.5%;
     }
 }
