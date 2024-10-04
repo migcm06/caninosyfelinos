@@ -111,7 +111,7 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .flyer {
-        margin: -10% 1%;
+        margin: -5% 1%;
     }
     .apartar {
         margin: 0 1%;
@@ -165,5 +165,8 @@
     }
     .hierbaCI {
         margin: 2% 0 0;
+    }
+    #herci {
+        margin-top: 2%;
     }
 }
