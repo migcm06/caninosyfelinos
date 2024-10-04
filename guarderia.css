@@ -67,6 +67,9 @@
     display: flex;
     justify-content: center;
 }
+#hierbagu {
+    margin-top: -3.9%;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     .guarderia {
         margin: 0%;
