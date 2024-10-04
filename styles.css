@@ -704,4 +704,44 @@ footer {
         width: 100%;
         margin-top: 2.5%;
     }
+    #quienes_somos {
+        margin: 0% 0%;
+        height: 44vh;
+        margin-top: -27%;
+    }
+    .figure_1 {
+        width: 18%;
+    }
+    .qqss {
+        font-size: 33px;
+    }
+    .qqss_p {
+        font-size: 17px;
+        width: 65%;
+    }
+    .mujer-poli {
+        margin-top: -3%;
+        width: 49%;
+    }
+    #publicidad_servicios {
+        margin: 10% 0%;
+    }
+    .veterinario {
+        margin-left: -1%;
+        margin-top: -4%;
+        width: 45%;
+        height: 42%;
+    }
+    .title_publicidad {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 14%;
+        margin-left: -4%;
+    }
+    .text_publicidad {
+        font-size: 25px;
+        width: 100%;
+        margin-left: -67%;
+        margin-top: 5%;
+    }
 }
