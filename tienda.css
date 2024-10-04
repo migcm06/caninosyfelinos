@@ -156,13 +156,15 @@
     border: 2px #0E51B7 solid;
     border-radius: 5px;
     color: #fff;
-    width: 100%;
-    font-family: "Sue Ellen Francisco",sans-serif;
+    width: 102%;
+    font-family: "Sue Ellen Francisco", sans-serif;
     text-align: center;
     font-weight: 400;
     z-index: 22;
     box-sizing: inherit;
-    font-size: 30px;
+    font-size: 37px;
+    margin-top: -15%;
+    height: 5vh;
 }
 .agregar-carrito {
     font-family: 'League Gothic', sans-serif;

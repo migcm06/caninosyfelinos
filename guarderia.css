@@ -77,4 +77,16 @@
         font-weight: 300;
         line-height: 28px;
     }
+    .galeria .fila-fotos {
+        flex-direction: column; /* Cambia la dirección de las filas a columnas */
+    }
+
+    .galeria .foto {
+        margin: 5px 0; 
+    }
+
+    .galeria .fotos {
+        width: 100%;  
+        margin: 0 auto; 
+    }
 }
