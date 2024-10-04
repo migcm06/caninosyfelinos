@@ -44,13 +44,16 @@
     z-index: 80;
     width: 13%;
     position: absolute;
-    top: 48.6%;
+    top: 40.6%;
 }
 .main {
     background-color: rgba(197, 232, 243, 0.79);
-    margin: 2% 10%;
+    margin: 4% 10%;
     border-radius: 15px;
     margin-bottom: 2%;
+}
+#hierbanos {
+    margin-top: -4%;
 }
 .square {
     background-color: #EBFEFF;
@@ -86,7 +89,7 @@
     justify-content: center;
     align-items: center;
     width: 103%;
-    margin-top: -15%;
+    margin-top: -12%;
 }
 .profesionalCard {
     border: #483B3B solid 1px;
@@ -101,8 +104,8 @@
 .descriP {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.722);
+    font-size: 20px;
+    color: rgb(0 0 0 / 94%);
     margin: 3% 5%;
     text-align: justify;
 }
@@ -157,6 +160,7 @@ h3 {
     font-weight: 300;
     line-height: 30px;
     text-align: justify;
+    font-size: 25px;
 }
 .text-historia  {
     display: flex;
