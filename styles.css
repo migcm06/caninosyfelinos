@@ -163,7 +163,10 @@ article.quienes_somos {
     display: flex;
     flex-direction: row;
 }
-
+.texto_quienes_somos {
+    position: relative;
+    left: 2%;  
+}
 #quienes_somos {
     background-color: #fff;
     margin: 0% 10%;
@@ -180,7 +183,7 @@ article.quienes_somos {
     font-size: 64px;
     font-family: 'Besley';
     margin-left: 15%;
-    margin-top: -13%;
+    margin-top: -28%;
     font-weight: 400;
 }
 
@@ -200,7 +203,7 @@ article.quienes_somos {
 }
 
 #publicidad_servicios {
-    margin: 4% 10%;
+    margin: 10% 10%;
 }
 .first_square {
     background: linear-gradient(to bottom, #1057C1, #0994A9);
