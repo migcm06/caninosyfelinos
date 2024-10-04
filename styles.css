@@ -183,7 +183,7 @@ article.quienes_somos {
     font-size: 64px;
     font-family: 'Besley';
     margin-left: 15%;
-    margin-top: -28%;
+    margin-top: -21%;
     font-weight: 400;
 }
 
@@ -219,7 +219,7 @@ article.quienes_somos {
 .title_publicidad {
     color: #fff;
     font-family: 'Besley', sans-serif;
-    font-size: 65px;
+    font-size: 35px;
     width: 91%;
     text-align: center;
     margin-top: 5%;
@@ -241,7 +241,7 @@ article.quienes_somos {
     width: 10%;
     float: right;
     margin-right: 25%;
-    margin-top: -12%;
+    margin-top: -14%;
 }
 
 .btn {
@@ -263,7 +263,7 @@ article.quienes_somos {
     padding: 2%;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 14%;
-    font-size: 35px;
+    font-size: 25px;
     padding: 10%;
 }
 .agendar:hover {
@@ -278,7 +278,7 @@ article.quienes_somos {
     align-items: center;
     padding: 2%;
     font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
     padding: 10%;
 }
 .emergency:hover {
