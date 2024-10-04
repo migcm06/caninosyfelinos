@@ -278,5 +278,47 @@ label {
         height: 4vh;
         margin: 12% 0%;
     }
+    .container-urgencia {
+        margin: 0 4%;
+        margin-top: -2%;
+        height: 90vh;
+    }
+    .overlay-urgencia {
+        width: 86vw;
+        height: 82vh;
+        margin-top: 4%;
+    }
+    #urgencia {
+        margin-top: -98%;
+    }
+    #motivo {
+        right: 23%;
+    }
+    .nombre {
+        margin-top: 0%;
+        left: -31%;
+    }
+    .telefono {
+        left: -31.6%;
+    }
+    #especie-u {
+        margin-top: 0.8%;
+        left: -29%;
+    }
+    .atencion {
+        left: -29%;
+        margin-top: 1%;
+    }
+    .genero {
+        margin-top: 0.7%;
+        left: -36.5%;
+    }
+    .ambulancia {
+        margin-top: 1%;
+        left: -29%;
+    }
+    .atencio {
+        width: 169%;
+    }
 }
 
