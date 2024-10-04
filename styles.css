@@ -29,7 +29,7 @@ body {
 }
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .logo {
     width: 85%;
@@ -61,11 +61,11 @@ img.icon {
     border-radius: 25px;
     border: 3px solid #0F0E0E;
     box-shadow: 0 4px 6px rgba(10, 72, 166, 0.5);
-    font-size: 27px;
-    font-family: "Sue Ellen Francisco",sans-serif;
+    font-size: 38px;
+    font-family: "Sue Ellen Francisco", sans-serif;
     cursor: pointer;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .inicio:hover{
     background-color: #1057C1;
@@ -81,7 +81,6 @@ img.icon {
     background-position: center;
     background-size: contain;
     width: 5%;
-    margin-top: 6%;
 }
 .carrito:hover {
         animation: shake 0.5s;
@@ -113,6 +112,7 @@ nav {
     border-left: 5px #F1FDFF solid;
     text-align: center;
     cursor: pointer;
+    font-size: 40px;
 }
 .rectangulo:hover {
     background-color: #8DB8F9;
@@ -163,7 +163,9 @@ article.quienes_somos {
 
 #quienes_somos {
     background-color: #fff;
-    margin: 5% 10%;
+    margin: 0% 10%;
+    height: 44vh;
+    margin-top: 8%;
 }
 
 .figure_1 {
@@ -191,13 +193,12 @@ article.quienes_somos {
 
 .mujer-poli {
     float: right;
-    margin-top: -30%;
+    margin-top: -10%;
 }
 
 #publicidad_servicios {
-    margin: 0 10%;
+    margin: 4% 10%;
 }
-
 .first_square {
     background: linear-gradient(to bottom, #1057C1, #0994A9);
     height: 51.6vh;
@@ -212,20 +213,20 @@ article.quienes_somos {
 .title_publicidad {
     color: #fff;
     font-family: 'Besley', sans-serif;
-    font-size: 48px;
-    width: 71%;
+    font-size: 65px;
+    width: 91%;
     text-align: center;
     margin-top: 5%;
 }
 
 .text_publicidad {
     color: white;
-    font-size: 31px;
-    width: 30%;
+    font-size: 47px;
+    width: 60%;
     font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin-left: 17%;
-    margin-top: 7%;
+    text-align: justify;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 
 .botones-publicidad {
@@ -233,8 +234,7 @@ article.quienes_somos {
     flex-direction: column;
     width: 10%;
     float: right;
-    margin-right: 29%;
-    margin-top: -12%;
+    margin-right: 25%;
 }
 
 .btn {
@@ -256,6 +256,8 @@ article.quienes_somos {
     padding: 2%;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 14%;
+    font-size: 35px;
+    padding: 10%;
 }
 .agendar:hover {
     transform: scale(1.05); /* Escala al 105% */
@@ -269,6 +271,8 @@ article.quienes_somos {
     align-items: center;
     padding: 2%;
     font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    padding: 10%;
 }
 .emergency:hover {
     transform: scale(1.05); /* Escala al 105% */
@@ -293,7 +297,7 @@ article.quienes_somos {
     color: white;
     font-family: "Sue Ellen Francisco";
     font-weight: 700;
-    font-size: 25px;
+    font-size: 40px;
     padding-left: 10px;
 }
 
@@ -382,7 +386,7 @@ article.quienes_somos {
 }
 .anuncio2 {
     width: 64%;
-    margin-left: -4.4%;
+    margin-left: -3%;
     cursor: pointer;
     overflow: hidden;
 }
@@ -452,7 +456,6 @@ footer {
 .slide-container {
     overflow: hidden;
     margin: -2% 10%;
-    margin-bottom: 2%;
 }
 .slider-wrapper {
     position: relative;
