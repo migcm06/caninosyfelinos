@@ -661,5 +661,14 @@ footer {
         font-family: "Sue Ellen Francisco",sans-serif;
         font-size: 20px;
     }
+    .agendar {
+        font-size: 15px;
+    }
+    .emergency {
+        font-size: 15px;
+    }
+    .botones-publicidad {
+        margin-top: -3%;
+    }
     
 }

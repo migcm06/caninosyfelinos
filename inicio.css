@@ -115,7 +115,7 @@ b {
 }
 @media (min-width: 768px) and (max-width: 1024px) {
     .rectangulo {
-        width: 25.5vw;
+        width: 26vw;
         height: 4vh;
         font-size: 24px;
     }

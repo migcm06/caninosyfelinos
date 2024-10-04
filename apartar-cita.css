@@ -311,7 +311,7 @@ label {
     }
     .genero {
         margin-top: 0.7%;
-        left: -36.5%;
+        left: -37%;
     }
     .ambulancia {
         margin-top: 1%;
@@ -319,6 +319,15 @@ label {
     }
     .atencio {
         width: 169%;
+    }
+    #solicitar {
+        left: -30%;
+        margin-top: 5%;
+    }
+    #close-ur {
+        font-size: 52px;
+        top: 9%;
+        left: 82%;
     }
 }
 
