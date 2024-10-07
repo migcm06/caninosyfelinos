@@ -317,3 +317,80 @@ h3 {
         margin-top: 2%;
     }
 }
+@media (min-width: 393px) and (max-width: 769px)  {
+.titulo {
+    height: 20vh;
+    margin: 20% 0%;
+    }
+    .valla {
+        width: 24%;
+        margin-top: 12.6%;
+        height: 9vh;
+    }
+    .title {
+        width: 52%;
+        height: 10.8vh;
+        margin-top: 7%;
+    }
+    #hierbanos {
+        margin-top: -85.31%;
+    }
+    .ece {
+        right: 0;
+    }
+    .perro {
+        width: 25%;
+        top: 16.6%;
+    }
+    .main {
+        margin: -15% 1%;
+        margin-bottom: 2%;
+    }
+    .logo-showing {
+        width: 100%;
+    }
+    .ourTeam {
+        width: 70%;
+    }
+    .profesionales {
+        flex-wrap: wrap;
+    }
+    .profesionalCard {
+        border: #483B3B solid 1px;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        margin: 2% 1%;
+    }
+    .nombre {
+        margin-top: -1%;
+    }
+    .misionVision {
+        margin: 2% 0%;
+    }
+    .historiaPic {
+        width: 840%;
+    }
+    .greenDeco {
+        width: 400%;
+    }
+    .imagenes {
+        margin-top: 17%;
+    }
+    .mivihis {
+        font-size: 18px;
+        width: 124%;
+    }
+    .text-historia {
+        position: relative;
+        margin-top: 100%;
+        left: -20%;
+    }
+    .titles {
+        display: flex;
+        justify-content: start;
+    }
+}
