@@ -378,4 +378,70 @@ label {
     .horita {
         color: white;
     }
+    .container-urgencia {
+        margin: 0 0%;
+    }
+    .overlay-urgencia {
+        width: 96vw;
+        height: 85vh;
+        margin: 2%;
+        margin-top: 4%;
+    }
+    #urgencia {
+        margin-top: -178%;
+        font-size: 36px;
+        left: -26%;
+    }
+    #motivo {
+        right: 8%;
+    }
+    #motivos-ur {
+        width: 117%;
+    }
+    .nombre {
+        position: relative;
+        margin-top: -1%;
+        right: 24%;
+    }
+    .ur {
+        width: 196%;
+    }
+    .telefono {
+        position: relative;
+        left: -24.6%;
+        margin-top: 2%;
+    }
+    #telefono-u {
+        width: 204%;
+        height: 5vh;
+    }
+    #especie-u {
+        margin-top: 0.8%;
+        left: -19%;
+    }
+    #especie-ur {
+        width: 165%;
+    }
+    .atencion {
+        left: -19%;
+    }
+    .atencio {
+        width: 164%;
+    }
+    .genero {
+        margin-top: 0.7%;
+        left: -34.5%;
+    }
+    #close-ur {
+        top: 0%;
+        left: 88%;
+    }
+    .ambulancia {
+        position: relative;
+        margin-top: 1%;
+        left: -19%;
+    }
+    .urg {
+        left: -32.2%;
+    }
 }
