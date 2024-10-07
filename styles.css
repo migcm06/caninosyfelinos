@@ -719,7 +719,7 @@ footer {
         width: 49%;
     }
     #publicidad_servicios {
-        margin: 10% 0%;
+        margin: 16% 0%;
     }
     .veterinario {
         margin-left: -1%;
@@ -744,14 +744,18 @@ footer {
         margin-top: 8%;
     }
     .agendar {
-        font-size: 19px;
+        font-size: 16px;
         padding: 10%;
-        width: 644%;
+        width: 691%;
+        position: relative;
+        left: 413%;
     }
     .emergency {
-        font-size: 20px;
+        font-size: 17px;
         padding: 10%;
-        width: 638%;
+        width: 685%;
+        position: relative;
+        left: 410%;
     }
     .servicio {
         font-weight: 500;

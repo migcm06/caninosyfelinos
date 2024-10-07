@@ -444,3 +444,98 @@
         top: 4%;
     }
 }
+@media (min-width: 393px) and (max-width: 769px)  {
+    .switcher_dog_cat {
+        margin: 22% 0% 10%;
+        height: 5vh;
+    }
+    .switch {
+        width: 30%;
+        height: 5vh;
+    }
+    .dogs {
+        width: 17%;
+        font-size: 22px;
+        text-align: center;
+    }
+    .cats {
+        width: 17%;
+        font-size: 22px;
+        text-align: center;
+    }
+    .container-info-seccion {
+        margin: 2% 0%;
+    }
+    .tienda {
+        margin: 6% 0%;
+    }
+    .ribbon-tienda {
+        width: 80%;
+    }
+    a {
+        font-size: 17px;
+    }
+    .title-info-tienda {
+        width: 100%;
+        font-size: 26px;
+    }
+    .text-tienda {
+        font-size: 18px;
+    }
+    .brand {
+        width: 90%;
+    }
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .producto {
+        width: 90%; 
+        margin-bottom: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+        border: 1px solid #ccc; /* Opcional, para delimitar los productos */
+        border-radius: 15px;
+        margin-top: 16%;
+        height: 50vh;
+    }
+    .producto > h2 {
+        width: 111%;
+        margin-top: -7%;
+        font-size: 25px;
+    }
+    .cositas {
+        width: 77%;
+        position: relative;
+        top: 7%;
+        left: 5%;
+    }
+    .cantidad {
+        width: 9.5vw;
+        height: 5.5vh;
+        margin-top: 7%;
+        position: relative;
+        right: 14%;
+    }
+    .unidades {
+        top: -99%;
+        left: 34%;
+        font-size: 23px;
+    }
+    .vermas {
+        font-size: 23px;
+        position: relative;
+    }
+    .agregar-carrito {
+        width: 50%;
+        border-radius: 12px;
+        font-size: 27px;
+        top: 15%;
+    }
+    .cuore {
+        position: relative;
+        top: -3%;
+        width: 81%;
+    }
+}
