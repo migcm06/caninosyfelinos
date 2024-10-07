@@ -330,4 +330,52 @@ label {
         left: 82%;
     }
 }
-
+@media (min-width: 393px) and (max-width: 769px)  {
+    .container-apartar {
+    margin: 0px 0%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    }
+    .overlay-apartar {
+        width: 96vw;
+    }
+    #Solicitud-ti {
+        margin-top: -211%;
+    }
+    input {
+        width: 100%;
+    }
+    .izq {
+        position: relative;
+        margin-top: 0.6%;
+        left: 0%;
+    }
+    #motivos {
+        width: 130%;
+        height: 7vh;
+    }
+    .nombre-mas {
+        position: relative;
+        margin-top: 3.5%;
+        left: 0%;
+    }
+    .edad {
+        position: relative;
+        margin-top: -34%;
+        left: 53%;
+    }
+    #edad {
+        color: white;
+    }
+    .hora {
+        position: relative;
+        margin-top: -33%;
+        left: 108%;
+        margin-bottom: 20%;
+    }
+    .horita {
+        color: white;
+    }
+}
