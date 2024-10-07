@@ -571,4 +571,46 @@
     .two {
         top: -4%;
     }
+    .descripcion-des {
+        margin: 5% 0%;
+    }
+    .ribbonDes {
+        width: 60%;
+    }
+    .img-pro {
+        width: 90%;
+    }
+    .caracteristicas{
+        display: none;
+    }
+    .cosas-del-producto {
+        display: flex;
+        flex-direction: column;
+    }
+    .izq {
+        position: relative;
+        left: 5%;
+        width: 100%;
+    }
+    .titlePro {
+        width: 95%;
+        font-size: 20px;
+    }
+    #comprar {
+        width: 51%;
+        margin-top: 6%;
+        font-size: 23px;
+    }
+    .listafinal {
+        margin: 5% 5%;
+        gap: 17px;
+    }
+    .des-segundo-title {
+        font-family: 'Roboto', sans-serif;
+        color: #1057c1;
+        margin: 24px 2%;
+    }
+    .des-title {
+        margin: 6% 1%;
+    }
 }
