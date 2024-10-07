@@ -393,4 +393,19 @@ h3 {
         display: flex;
         justify-content: start;
     }
+    .mision {
+        flex-direction: row;
+    }
+    .perroG {
+        left: 0%
+    }
+    .misi {
+        margin-top: -16%;
+    }
+    .visi {
+        margin-top: -15%;
+    }
+    .hierbafooter {
+        margin: 0px 0%;
+    }
 }
