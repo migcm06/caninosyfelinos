@@ -181,3 +181,62 @@
         margin-top: 4.5%;
     }
 }
+@media (min-width: 393px) and (max-width: 769px)  {
+    #valla {
+        width: 24%;
+        margin-top: 16.6%;
+        height: 7vh;
+    }
+    #cita {
+        width: 51%;
+        height: 8.8vh;
+        margin-top: 11%;
+        font-size: 25px;
+        margin-bottom: 0%;
+    }
+    #herci {
+        margin-top: -83.6%;
+    }
+    .flyer {
+        margin: 0% 0%;
+    }
+    .titulo {
+        height: 20vh;
+        margin: 20% 0% -6%;
+    }
+    .flyerImg {
+        width: 100%;
+        height: 60%;
+        margin-top: -24%;
+    }
+    .apartar {
+        margin: 0 0%;
+        gap: 100px;
+    }
+    .text-citar {
+        position: relative;
+        margin-top: -2%;
+        width: 100%;
+    }
+    .citarPic {
+        width: 92%;
+        left: 3%;
+        margin-top: -18%;
+    }
+    .titleC {
+        font-size: 32px;
+    }
+    .fushiaDeco {
+        background-color: rgba(221, 9, 79, 0.67);
+        height: 10vh;
+        width: 50%;
+        border-radius: 15px;
+    }
+    .apartar-citaS {
+        display: flex;
+        flex-direction: column;
+    }
+    .hierbaCI {
+        margin: 12% 0% 0%;
+    }
+}
