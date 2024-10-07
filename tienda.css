@@ -556,7 +556,7 @@
         height: 64vh;
     }
     .cositas {
-        top: -6%;
+        top: 4%;
     }
     .final {
         top: -7%;
@@ -567,5 +567,8 @@
     .hierba {
         margin: 0px 0%;
         margin-top: 5%;
+    }
+    .two {
+        top: -4%;
     }
 }
