@@ -141,3 +141,24 @@ b {
         left: 180%;
     }
 }
+@media (min-width: 393px) and (max-width: 769px)  {
+    .container-inicio {
+        width: 70vw;
+    }
+    .entrar {
+        background-size: cover;
+        background-position: center;
+        width: 98%;
+        height: 80vh;
+        margin: 0 0%;
+    }
+    .container-inicio {
+
+        top: 11%;
+    }
+    .overlay {
+        width: 83vw;
+        height: 53vh;
+        margin-top: -154%;
+    }
+}

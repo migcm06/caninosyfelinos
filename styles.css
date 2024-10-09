@@ -496,7 +496,9 @@ footer {
         transform: translateX(-300%); /* Cuarta imagen */
     }
 }
-
+#check {
+    display: none;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
     .logo {
         width: 60%;
@@ -679,7 +681,6 @@ footer {
     }
 }
 @media (min-width: 393px) and (max-width: 769px)  { 
-
     header {
         display: none;
     }
