@@ -685,7 +685,7 @@ footer {
         display: none;
     }
     .nav {
-        display: none;
+        display: flex;
     }
     .slide-container {
         margin: 25% 0%;
@@ -717,7 +717,7 @@ footer {
     }
     .mujer-poli {
         margin-top: -3%;
-        width: 49%;
+        width: 40%;
     }
     #publicidad_servicios {
         margin: 16% 0%;
@@ -736,9 +736,9 @@ footer {
     }
     .text_publicidad {
         font-size: 25px;
-        width: 160%;
-        margin-left: -67%;
-        margin-top: 20%;
+        width: 121%;
+        margin-left: -52%;
+        margin-top: 8%;
     }
     .botones-publicidad {
         margin-right: 110%;
@@ -816,5 +816,21 @@ footer {
     .social_networking_footer {
         width: 70%;
         margin-top: 1%;
+    }
+    .paws2 {
+        left: 40%;
+    }
+    .rectangulo {
+        width: 25vw;
+        font-size: 20px;
+        height: 4vh;
+        border: 0.5px solid lightblue;
+    }
+    .semicirculo {
+        width: 37%;
+        height: 3vh;
+    }
+    .slide-container {
+        margin: -1% 0% 24%;
     }
 }
